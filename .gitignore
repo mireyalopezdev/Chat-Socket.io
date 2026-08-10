@@ -1,0 +1,9 @@
+# Dependencias instaladas
+node_modules/
+
+# Archivos de entorno / claves privadas
+.env
+
+# Archivos y logs del sistema
+*.log
+.DS_Store

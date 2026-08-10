@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Yanone';
+    src: url('./fonts/yanone.ttf');
+}
+@font-face {
+    font-family: 'Finder';
+    src: url('./fonts/finger.ttf');
+}
+@font-face {
+    font-family: 'Titilium';
+    src: url('./fonts/titilium.ttf');
+}
+body{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: rgba(226, 198, 198, 0.89);
+}
+h1{
+    font-size: 4.5vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Yanone';
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#container{
+    display: flex;
+    flex-direction: row;     
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;                 
+    width: 100%;
+    max-width: 900px;
+}
+#messages{
+    flex: 1;                
+    height: 350px !important;
+    padding: 15px;
+    width: 50%;
+    max-width: 700px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px #ccc inset;
+    margin: 10px auto;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(255, 248, 220,0.6);
+}
+#nickn{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 2.1vw;
+    color:rgb(0, 0, 0,0.5);
+    margin-bottom: 5px;
+    font-family: 'Titilium';
+    border-bottom: 2px solid rgb(0, 0, 0,0.5);
+}
+.messages{
+    margin: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(226, 198, 198);
+}
+#formdiv{
+    width: 50%;
+    max-width: 300px;
+    height: 350px !important;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px #ccc inset;
+    margin: 10px auto;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(255, 248, 220,0.6);
+    text-align: center;
+    margin-left: 40px;
+}
+#nick{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Titilium';
+    margin: 0px;
+}
+#nickname{
+    width: 70%;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+#mess{
+    width: 100%;
+    font-size: 1.5vw;
+    font-family: 'Titilium';
+    margin-top: 20px;
+}
+#mensaje{
+    width: 70%;
+    border-radius: 5px;
+    height: 100px;
+}
+#boton{
+    border: none;
+    padding: 10px 20px;
+    background-color:rgb(242, 156, 148);
+    cursor: pointer;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    display: block;
+    margin: 15px auto 0 auto;
+}
+#boton:hover{
+    background-color:rgba(242, 156, 148, 0.80);
+
+}
+
+@media (max-width: 768px) {
+    #container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        max-width: 600px; 
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    #formdiv, #messages {
+        width: 100% !important;       
+        max-width: 100% !important;
+        box-sizing: border-box !important; 
+        padding: 20px;
+        margin: 10px 0;                 
+    }
+    #nickname, #mensaje {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #mensaje {
+        height: 80px;
+        resize: none;
+    }
+    #boton {
+        display: block;
+        margin: 15px auto 0 auto;
+    }
+}
