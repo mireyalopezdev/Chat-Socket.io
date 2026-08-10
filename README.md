@@ -3,10 +3,10 @@
 
 ## CARACTERISTICAS
 
-* **Comunicación Bidireccional en Tiempo Real.
-* **Arquitectura Basada en Eventos (emit y on).
-* **Servidor de Node.js Dedicado.
-* **Cliente Web Ligero (HTML/CSS/JS).
+* Comunicación Bidireccional en Tiempo Real.
+* Arquitectura Basada en Eventos (emit y on).
+* Servidor de Node.js Dedicado.
+* Cliente Web Ligero (HTML/CSS/JS).
   
 ## DESARROLLO EN
 
@@ -38,4 +38,4 @@ Si deseas clonar este proyecto y ejecutarlo en tu computadora, sigue estos pasos
         npm run client
      ```
 5. **VER APLICACION**
-   Visita **http://127.0.0.1:8080** o **http://localhost:8080**en tu navegador.
+   Visita **http://127.0.0.1:8080** o **http://localhost:8080** en tu navegador.
